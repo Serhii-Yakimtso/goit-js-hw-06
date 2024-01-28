@@ -59,3 +59,10 @@ console.log(builder.getValue()); // "^.^"
 builder.padBoth('=');
 console.log(builder.getValue()); // "=^.^="
 console.log('==================');
+console.log('===== bonus for task-3 =====');
+builder.padStart('\\../,_(');
+builder.padEnd(')_,\\../');
+
+console.log(builder.getValue()); // "."
+
+console.log('==================');
